@@ -35,6 +35,8 @@ final class Versions
   'brumann/polyfill-unserialize' => 'v1.0.4@8ed1cd343ddc134a7ef649aca0aa0fe2a1b45008',
   'caxy/php-htmldiff' => 'v0.1.9@4bad5c6a4ecc76954d37764e6a29273b6b7bf1f8',
   'chi-teck/drupal-code-generator' => '1.30.5@c59c31ee6d8eefe76a5d367feef902e259c90c7b',
+  'cohesion/dx8' => '5.6.0@54e3c32624f3cf346f144f92a4165e1248a5b5f6',
+  'cohesion/dx8-theme' => '5.6.0@780d26eaa5425671a714263c025d5911fb2611aa',
   'composer/ca-bundle' => '1.2.4@10bb96592168a0f8e8f6dcde3532d9fa50b0b527',
   'composer/installers' => 'v1.7.0@141b272484481432cda342727a427dc1e206bfa0',
   'composer/semver' => '1.5.0@46d9139568ccb8d9e7cdd4539cab7347568a5e2e',
@@ -93,8 +95,10 @@ final class Versions
   'drupal/entity_browser' => '2.1.0@8.x-2.1',
   'drupal/entity_browser_block' => '1.0.0@8.x-1.0',
   'drupal/entity_embed' => '1.0.0@8.x-1.0',
+  'drupal/entity_reference_revisions' => '1.7.0@8.x-1.7',
   'drupal/features' => '3.8.0@8.x-3.8',
   'drupal/image_widget_crop' => '2.2.0@8.x-2.2',
+  'drupal/imce' => '1.7.0@8.x-1.7',
   'drupal/inline_entity_form' => '1.0.0-rc2@8.x-1.0-rc2',
   'drupal/layout_builder_restrictions' => '2.2.0@8.x-2.2',
   'drupal/layout_builder_st' => '1.0.0-alpha1@8.x-1.0-alpha1',
@@ -278,7 +282,7 @@ final class Versions
   'textalk/websocket' => '1.2.0@bfa18bb6bf523680c7803f6b04694fbbf2f67bbf',
   'theseer/tokenizer' => '1.1.3@11336f6f84e16a720dae9d8e6ed5019efa85a0f9',
   'webflo/drupal-core-require-dev' => '8.7.8@593123300b3cf9974fa0742282af90fa72ac06fc',
-  'acquia/blt-project' => 'No version set (parsed as 1.0.0)@',
+  'acquia/blt-project' => 'dev-zscalerengage-build@ebfe26d28af6639031d5285339e48d8524868031',
 );
 
     private function __construct()

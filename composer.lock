@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "106a386546ce0e1dd0c89c1700e3d74d",
+    "content-hash": "f9ba005190508d1d03c748e78dc5587d",
     "packages": [
         {
             "name": "acquia/blt",
@@ -1071,6 +1071,84 @@
             ],
             "description": "Drupal code generator",
             "time": "2019-10-27T14:27:26+00:00"
+        },
+        {
+            "name": "cohesion/dx8",
+            "version": "5.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/cohesion_dev/dx8-module.git",
+                "reference": "54e3c32624f3cf346f144f92a4165e1248a5b5f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/cohesion_dev/dx8-module/get/54e3c32624f3cf346f144f92a4165e1248a5b5f6.zip",
+                "reference": "54e3c32624f3cf346f144f92a4165e1248a5b5f6",
+                "shasum": ""
+            },
+            "require": {
+                "cweagans/composer-patches": "^1.6",
+                "drupal/entity_reference_revisions": "^1.6",
+                "drupal/imce": "^1.7",
+                "drupal/token": "^1.5",
+                "ext-json": "*"
+            },
+            "require-dev": {
+                "behat/mink": "^1.7",
+                "phpunit/phpunit": "^6.5",
+                "symfony/phpunit-bridge": "^4.3"
+            },
+            "suggest": {
+                "drupal/admin_toolbar": "Provides a better UX for the standard admin toolbar",
+                "drupal/context": "Provides a UI for contexts.",
+                "drupal/google_analytics": "Provides integration with Google Analytics",
+                "drupal/menu_item_extras": "Make the Menu Link Content entity fully fieldable.",
+                "drupal/menu_link_attributes": "This module allows you to add attributes to your menu links or their wrapping <li> elements.",
+                "drupal/request_data_conditions": "Defines a set of conditions via the Drupal 8 Conditions Plugin API for use with the context module",
+                "drupal/search_api": "Provides a framework for easily creating searches on any entity known to Drupal, using any kind of search engine.",
+                "drupal/views_infinite_scroll": "Provides infinite scroll functionality to Views"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drush": {
+                    "services": {
+                        "drush.services.yml": "^9"
+                    }
+                },
+                "patches": {
+                    "drupal/entity_reference_revisions": {
+                        "'Create new revision' option is ignored when updating EntityReferenceRevisionsItem": "https://www.drupal.org/files/issues/2019-06-27/3025709-30.patch"
+                    }
+                }
+            },
+            "description": "DX8 module",
+            "homepage": "https://bitbucket.org/cohesion_dev/dx8-module",
+            "support": {
+                "source": "https://bitbucket.org/cohesion_dev/dx8-module/src/54e3c32624f3cf346f144f92a4165e1248a5b5f6/?at=5.6.0"
+            },
+            "time": "2019-10-04T22:43:43+00:00"
+        },
+        {
+            "name": "cohesion/dx8-theme",
+            "version": "5.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://bitbucket.org/cohesion_dev/dx8-theme.git",
+                "reference": "780d26eaa5425671a714263c025d5911fb2611aa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://bitbucket.org/cohesion_dev/dx8-theme/get/780d26eaa5425671a714263c025d5911fb2611aa.zip",
+                "reference": "780d26eaa5425671a714263c025d5911fb2611aa",
+                "shasum": ""
+            },
+            "type": "drupal-theme",
+            "description": "DX8 base theme",
+            "homepage": "https://bitbucket.org/cohesion_dev/dx8-theme",
+            "support": {
+                "source": "https://bitbucket.org/cohesion_dev/dx8-theme/src/780d26eaa5425671a714263c025d5911fb2611aa/?at=5.6.0"
+            },
+            "time": "2019-10-04T22:43:49+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -5225,6 +5303,69 @@
             }
         },
         {
+            "name": "drupal/entity_reference_revisions",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/entity_reference_revisions.git",
+                "reference": "8.x-1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/entity_reference_revisions-8.x-1.7.zip",
+                "reference": "8.x-1.7",
+                "shasum": "4e3b849b0d984cd3c0a4330c9aa4cb16bf1f79f6"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "require-dev": {
+                "drupal/diff": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.7",
+                    "datestamp": "1570284187",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "patches_applied": []
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "Frans",
+                    "homepage": "https://www.drupal.org/user/514222"
+                },
+                {
+                    "name": "jeroen.b",
+                    "homepage": "https://www.drupal.org/user/1853532"
+                },
+                {
+                    "name": "miro_dietiker",
+                    "homepage": "https://www.drupal.org/user/227761"
+                }
+            ],
+            "description": "Adds a Entity Reference field type with revision support.",
+            "homepage": "https://www.drupal.org/project/entity_reference_revisions",
+            "support": {
+                "source": "https://git.drupalcode.org/project/entity_reference_revisions"
+            }
+        },
+        {
             "name": "drupal/features",
             "version": "3.8.0",
             "source": {
@@ -5379,6 +5520,57 @@
                 "source": "https://www.drupal.org/project/image_widget_crop",
                 "issues": "https://www.drupal.org/project/issues/image_widget_crop",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
+            }
+        },
+        {
+            "name": "drupal/imce",
+            "version": "1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/imce.git",
+                "reference": "8.x-1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/imce-8.x-1.7.zip",
+                "reference": "8.x-1.7",
+                "shasum": "55827d5c18c398269cea782a6bb8d9788a97576c"
+            },
+            "require": {
+                "drupal/core": "~8.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-1.x": "1.x-dev"
+                },
+                "drupal": {
+                    "version": "8.x-1.7",
+                    "datestamp": "1540559280",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "thalles",
+                    "homepage": "https://www.drupal.org/user/3589086"
+                },
+                {
+                    "name": "ufku",
+                    "homepage": "https://www.drupal.org/user/9910"
+                }
+            ],
+            "description": "Provides a file manager supporting personal folders.",
+            "homepage": "https://drupal.org/project/imce",
+            "support": {
+                "source": "https://git.drupalcode.org/project/imce"
             }
         },
         {

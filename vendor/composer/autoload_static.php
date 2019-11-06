@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInited6f51018a6321530735269b8126776a
+class ComposerStaticInitd67ee2ba6bdbab723d43abf678b0f3fa
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -26,12 +26,12 @@ class ComposerStaticInited6f51018a6321530735269b8126776a
         '1ca3bc274755662169f9629d5412a1da' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/normalize_uploaded_files.php',
         '40360c0b9b437e69bcbb7f1349ce029e' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/parse_cookie_header.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
-        '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
-        '952683d815ff0a7bf322b93c0be7e4e4' => __DIR__ . '/..' . '/chi-teck/drupal-code-generator/src/bootstrap.php',
         '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
-        '3a163f06e55e497e0acc65ba132a7a76' => __DIR__ . '/..' . '/sarciszewski/php-future/autoload.php',
         'fbeead2280a8f3911a1fe6dd034f7d5e' => __DIR__ . '/..' . '/mkalkbrenner/php-htmldiff-advanced/src/HtmlDiffAdvancedInterface.php',
         '96f8d8288528d52059397cad6ec61f17' => __DIR__ . '/..' . '/mkalkbrenner/php-htmldiff-advanced/src/HtmlDiffAdvanced.php',
+        '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
+        '952683d815ff0a7bf322b93c0be7e4e4' => __DIR__ . '/..' . '/chi-teck/drupal-code-generator/src/bootstrap.php',
+        '3a163f06e55e497e0acc65ba132a7a76' => __DIR__ . '/..' . '/sarciszewski/php-future/autoload.php',
         '14b77cb26adb5cc1fc5a5f05dfb5af2d' => __DIR__ . '/..' . '/acquia/blt/RoboFile.php',
     );
 
@@ -8451,11 +8451,11 @@ class ComposerStaticInited6f51018a6321530735269b8126776a
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInited6f51018a6321530735269b8126776a::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInited6f51018a6321530735269b8126776a::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInited6f51018a6321530735269b8126776a::$prefixesPsr0;
-            $loader->fallbackDirsPsr0 = ComposerStaticInited6f51018a6321530735269b8126776a::$fallbackDirsPsr0;
-            $loader->classMap = ComposerStaticInited6f51018a6321530735269b8126776a::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitd67ee2ba6bdbab723d43abf678b0f3fa::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitd67ee2ba6bdbab723d43abf678b0f3fa::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitd67ee2ba6bdbab723d43abf678b0f3fa::$prefixesPsr0;
+            $loader->fallbackDirsPsr0 = ComposerStaticInitd67ee2ba6bdbab723d43abf678b0f3fa::$fallbackDirsPsr0;
+            $loader->classMap = ComposerStaticInitd67ee2ba6bdbab723d43abf678b0f3fa::$classMap;
 
         }, null, ClassLoader::class);
     }

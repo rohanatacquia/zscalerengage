@@ -9,6 +9,8 @@
         "acquia/drupal-spec-tool": "*",
         "acquia/lightning": "^4.0.0",
         "acquia/memcache-settings": "*",
+        "cohesion/dx8": "5.6.0",
+        "cohesion/dx8-theme": "5.6.0",
         "drupal/acquia_connector": "^1.5.0",
         "drupal/acquia_purge": "^1.0-beta3",
         "drupal/cog": "^1.0.0",
@@ -30,7 +32,7 @@
         "sort-packages": true
     },
     "extra": {
-        "composer-exit-on-patch-failure": true,
+        "composer-exit-on-patch-failure": false,
         "drupal-scaffold": {
             "initial": {
                 "sites/default/default.services.yml": "sites/default/services.yml",
@@ -96,6 +98,14 @@
         "asset-packagist": {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        "dx8": {
+            "type": "vcs",
+            "url": "https://bitbucket.org/cohesion_dev/dx8-module.git"
+        },
+        "dx8-theme": {
+            "type": "vcs",
+            "url": "https://bitbucket.org/cohesion_dev/dx8-theme.git"
         }
     },
     "minimum-stability": "dev",
