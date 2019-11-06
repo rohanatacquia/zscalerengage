@@ -113,6 +113,7 @@ final class Versions
   'drupal/media_entity_instagram' => '2.0.0-alpha2@8.x-2.0-alpha2',
   'drupal/media_entity_twitter' => '2.0.0-alpha3@8.x-2.0-alpha3',
   'drupal/memcache' => '2.0.0@8.x-2.0',
+  'drupal/menu_item_extras' => '2.8.0@8.x-2.8',
   'drupal/metatag' => '1.10.0@8.x-1.10',
   'drupal/moderation_dashboard' => '1.0.0-beta1@8.x-1.0-beta1',
   'drupal/moderation_sidebar' => '1.2.0@8.x-1.2',
@@ -283,7 +284,7 @@ final class Versions
   'textalk/websocket' => '1.2.0@bfa18bb6bf523680c7803f6b04694fbbf2f67bbf',
   'theseer/tokenizer' => '1.1.3@11336f6f84e16a720dae9d8e6ed5019efa85a0f9',
   'webflo/drupal-core-require-dev' => '8.7.8@593123300b3cf9974fa0742282af90fa72ac06fc',
-  'acquia/blt-project' => 'dev-zscalerengage-build@64cf39ffb151e60bec49914f89344bb77fdfdc94',
+  'acquia/blt-project' => 'dev-zscalerengage-build@b6c88275d0bc90305d20111b4fdce2491ef45093',
 );
 
     private function __construct()
