@@ -69,6 +69,7 @@ final class Versions
   'drupal-composer/drupal-scaffold' => '2.6.1@13c1ffc7dd4925cb03707759128b85c0cd6276f8',
   'drupal/acquia_connector' => '1.16.0@8.x-1.16',
   'drupal/acquia_purge' => '1.0.0@8.x-1.0',
+  'drupal/admin_toolbar' => '2.0.0@8.x-2.0',
   'drupal/autosave_form' => '1.0.0@8.x-1.0',
   'drupal/bg_image_formatter' => '1.11.0@8.x-1.11',
   'drupal/blazy' => '1.0.0-rc4@8.x-1.0-rc4',
@@ -282,7 +283,7 @@ final class Versions
   'textalk/websocket' => '1.2.0@bfa18bb6bf523680c7803f6b04694fbbf2f67bbf',
   'theseer/tokenizer' => '1.1.3@11336f6f84e16a720dae9d8e6ed5019efa85a0f9',
   'webflo/drupal-core-require-dev' => '8.7.8@593123300b3cf9974fa0742282af90fa72ac06fc',
-  'acquia/blt-project' => 'dev-zscalerengage-build@ebfe26d28af6639031d5285339e48d8524868031',
+  'acquia/blt-project' => 'dev-zscalerengage-build@64cf39ffb151e60bec49914f89344bb77fdfdc94',
 );
 
     private function __construct()

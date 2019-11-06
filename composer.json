@@ -13,6 +13,7 @@
         "cohesion/dx8-theme": "5.6.0",
         "drupal/acquia_connector": "^1.5.0",
         "drupal/acquia_purge": "^1.0-beta3",
+        "drupal/admin_toolbar": "^2.0",
         "drupal/cog": "^1.0.0",
         "drupal/config_split": "^1.0.0",
         "drupal/core": "^8.6.0",
