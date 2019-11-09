@@ -28,7 +28,7 @@ git:
     pre-commit: false
     commit-msg: false
   remotes:
-    acquia: zscalerengage@svn-3844.devcloud.hosting.acquia.com:zscalerengage.git
+    acquia: zscalerengagelive@svn-3844.devcloud.hosting.acquia.com:zscalerengagelive.git
 deploy:
   # When manually deploying a tag, also tag the source repository.
   tag_source: true
