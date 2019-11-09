@@ -284,7 +284,7 @@ final class Versions
   'textalk/websocket' => '1.2.0@bfa18bb6bf523680c7803f6b04694fbbf2f67bbf',
   'theseer/tokenizer' => '1.1.3@11336f6f84e16a720dae9d8e6ed5019efa85a0f9',
   'webflo/drupal-core-require-dev' => '8.7.8@593123300b3cf9974fa0742282af90fa72ac06fc',
-  'acquia/blt-project' => 'dev-zscalerengage-build@b6c88275d0bc90305d20111b4fdce2491ef45093',
+  'acquia/blt-project' => 'dev-master@8cc0c43a0becaa574aba4fe888c635bd6c63af07',
 );
 
     private function __construct()

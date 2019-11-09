@@ -777,12 +777,6 @@ $settings['entity_update_backup'] = TRUE;
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php";
-/**
- * IMPORTANT.
- *
- * Do not include additional settings here. Instead, add them to settings
- * included by `blt.settings.php`. See BLT's documentation for more detail.
- *
- * @link https://docs.acquia.com/blt/
- */
+if (file_exists('/var/www/site-php')) {
+  require '/var/www/site-php/zscalerengagelive/zscalerengagelive-settings.inc';
+}
